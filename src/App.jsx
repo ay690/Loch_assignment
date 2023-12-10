@@ -1,16 +1,17 @@
-import React from 'react'
-import './App.css'
-import Landing_Page from './components/Landing_Page'
+import React from "react";
+import "./App.css";
+import Landing_Page from "./components/Landing_Page";
+import Signup from "./components/SignUp";
 
 function App() {
-
   return (
     <>
       <div>
         <Landing_Page />
-       </div>
+        <Signup />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
