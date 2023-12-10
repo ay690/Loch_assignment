@@ -1,0 +1,50 @@
+.group {
+    width: 322px;
+    height: 251px;
+    background: transparent;
+  }
+  .bell {
+    color: #fff;
+    padding-left: 5px;
+    font-size: 32px;
+  }
+  .primary_text {
+    color: rgba(242, 242, 242, 1);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0px;
+    padding: 16px 0;
+  }
+  
+  .secondary_text {
+    top: 261px;
+    left: 60px;
+    opacity: 0.7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: rgba(242, 242, 242, 1);
+  }
+  
+  .group_2 {
+    width: 322px;
+    text-align: right;
+    padding-top: 17px;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .group_2 {
+      text-align: left;
+      padding-top: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 200px) and (max-width: 778px) {
+    .group {
+      margin-left: 20px;
+    }
+  }
