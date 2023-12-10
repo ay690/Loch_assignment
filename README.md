@@ -1,5 +1,9 @@
 # Loch Assignment
 
+Demo Link:- https://loch-assignment-aniket.netlify.app/
+
+Video Link:- https://youtu.be/n8mroTVGNSo
+
 
 # Snippets
 
