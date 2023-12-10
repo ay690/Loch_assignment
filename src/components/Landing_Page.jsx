@@ -1,9 +1,11 @@
 import React from "react";
+import Cohorts from "../assets/Images/Cohorts.png";
 import styles from "../styles/Landing_page.module.css";
 import FirstGroup from "./FirstGroup";
-import SecondGroup from "./SecondGroup";
 import Slider from "./Slider";
-import Cohorts from "../assets/Images/Cohorts.png";
+import SecondGroup from "./SecondGroup";
+import Testimonials from "./Testimonials";
+
 
 const Landing_Page = () => {
   return (
@@ -16,6 +18,7 @@ const Landing_Page = () => {
         <img src={Cohorts} className={styles.Cohorts} alt="Cohorts Pic"/>
         <SecondGroup />
       </section>
+      <Testimonials />
     </main>
   );
 };
