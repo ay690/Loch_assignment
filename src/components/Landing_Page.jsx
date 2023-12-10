@@ -5,21 +5,24 @@ import FirstGroup from "./FirstGroup";
 import Slider from "./Slider";
 import SecondGroup from "./SecondGroup";
 import Testimonials from "./Testimonials";
-
+import PopUp from "./PopUp";
 
 const Landing_Page = () => {
   return (
-    <main className={styles.main}>
-      <section className={styles.first_block}>
-        <FirstGroup />
-        <Slider />
-      </section>
-      <section className={styles.second_block} >
-        <img src={Cohorts} className={styles.Cohorts} alt="Cohorts Pic"/>
-        <SecondGroup />
-      </section>
-      <Testimonials />
-    </main>
+    <>
+      <PopUp />
+      <main className={styles.main}>
+        <section className={styles.first_block}>
+          <FirstGroup />
+          <Slider />
+        </section>
+        <section className={styles.second_block}>
+          <img src={Cohorts} className={styles.Cohorts} alt="Cohorts Pic" />
+          <SecondGroup />
+        </section>
+        <Testimonials />
+      </main>
+    </>
   );
 };
 
