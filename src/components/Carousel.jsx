@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Testimonials.module.css";
-import TestimonialCard from './TestimonialCard'
+import TestimonialCard from "./TestimonialCard";
 
 const Carousel = () => {
   const testimonials = [
